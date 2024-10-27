@@ -24,10 +24,10 @@ namespace SENATOR.Units
             switch (Name)
             {
                 case "Basic Training":
-                    XPRewards.Add(0, 50); // No Training
-                    XPRewards.Add(1, 100); // Rookie
-                    XPRewards.Add(2, 200); // Regular
-                    XPRewards.Add(3, 300); // Veteran
+                    XPRewards.Add(0, 50); 
+                    XPRewards.Add(1, 100);
+                    XPRewards.Add(2, 200);
+                    XPRewards.Add(3, 300);
                     break;
                 case "Outdoor Survival Training":
                     XPRewards.Add(0, 50);
@@ -36,10 +36,10 @@ namespace SENATOR.Units
                     XPRewards.Add(3, 400);
                     break;
                 case "Sniper Training":
-                    XPRewards.Add(0, 0);   // No Training
-                    XPRewards.Add(1, 200); // Rookie
-                    XPRewards.Add(2, 400); // Regular
-                    XPRewards.Add(3, 600); // Veteran
+                    XPRewards.Add(0, 0);   
+                    XPRewards.Add(1, 200); 
+                    XPRewards.Add(2, 400); 
+                    XPRewards.Add(3, 600); 
                     break;
                 default:
                     break;
